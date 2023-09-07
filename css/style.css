@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header{
+    box-shadow: 0 0 0.1rem grey ;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    padding-left: 19rem;
+}
+
+.logo{
+    width: 7.2rem;
+    height: 2.9rem;
+}
+
+.navigatieLijst{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navigatieLijstItem{
+    font-size: 2.3rem;
+}
+
+.navigatieLijstItem:hover{
+    color: red;
+    cursor:default ;
+}
