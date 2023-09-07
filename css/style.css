@@ -44,3 +44,64 @@ header{
     color: red;
     cursor:default ;
 }
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+.artikel{
+    height: 50rem;
+    width: 60rem;
+    color: whitesmoke;
+    border-radius: 1rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+.artikel:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.artikel--1{
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/tech-jam/img/matrix.webp);
+}
+
+.artikel--2{
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/tech-jam/img/img2.webp);
+}
+
+.articles-1{
+    justify-content: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.articleImg{
+    border-radius: 1rem;
+}
+
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+}
